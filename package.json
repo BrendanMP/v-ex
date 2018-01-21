@@ -1,0 +1,24 @@
+{
+  "name": "v-ex",
+  "version": "1.0.0",
+  "description": "vue & express web app boilerplate",
+  "main": " ",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BrendanMP/v-ex.git"
+  },
+  "keywords": [
+    "vue",
+    "express",
+    "boilerplate"
+  ],
+  "author": "BrendanMP",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/BrendanMP/v-ex/issues"
+  },
+  "homepage": "https://github.com/BrendanMP/v-ex#readme"
+}

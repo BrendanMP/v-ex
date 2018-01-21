@@ -1,0 +1,93 @@
+// vendor
+@import "~normalize.css/normalize";
+@import "~bootstrap/scss/bootstrap-grid.scss";
+
+
+// Variables
+@import "vars";
+
+// Base
+* {
+  box-sizing: border-box;
+}
+
+html {
+  background: $color-light-gray;
+  font-size: $font-size-base;
+  @media (min-width: 1140px) {
+    font-size: 18px;
+  }
+}
+
+body {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  color: $color-blue-gray;
+  font-family: $font-family-sans-serif;
+  line-height: $line-height-base;
+}
+
+h1, h2, h3, h4, h5, h6,
+.h1, .h2, .h3, .h4, .h5, .h6 {
+  margin-top: 0;
+  margin-bottom: $headings-margin-bottom;
+  font-family: $headings-font-family;
+  font-weight: $headings-font-weight;
+  line-height: $headings-line-height;
+  color: $headings-color;
+}
+
+h1, .h1 {
+  font-size: $h1-font-size;
+}
+
+h2, .h2 {
+  font-size: $h2-font-size;
+}
+
+h3, .h3 {
+  font-size: $h3-font-size;
+}
+
+h4, .h4 {
+  font-size: $h4-font-size;
+}
+
+h5, .h5 {
+  font-size: $h5-font-size;
+}
+
+h6, .h6 {
+  font-size: $h6-font-size;
+}
+
+button, .btn {
+  font-family: $font-family-base;
+  padding: 0.75rem 1rem;
+  background: $color-blue-gray;
+  border: 0;
+  color: white;
+  font-size: 0.8rem;
+  font-weight: 500;
+  border: 2px solid transparent;
+  &.btn--large {
+    font-size: 1rem;
+    padding: 1rem 1.5rem;
+  }
+  &.btn--block {
+    display: block;
+    width: 100%;
+  }
+  &.btn--accent {
+    background: $color-pink;
+  }
+  &.btn--outline {
+    background: none;
+    border: 2px solid $color-blue-gray;
+    color: $color-blue-gray;
+    &.btn--accent {
+      background: none;
+      border: 2px solid $color-pink;
+    }
+  }
+}
