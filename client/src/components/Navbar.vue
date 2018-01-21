@@ -19,11 +19,13 @@ export default {
 <style lang="scss" scoped>
   @import "../styles/vars";
   .navbar {
-    position: fixed;
-    top: 0;
-    left: 5rem;
-    transform: rotate(90deg);
-    transform-origin: top left;
+    /*display: none;*/
+    /*position: fixed;*/
+    /*top: 0;*/
+    /*left: 5rem;*/
+    /*transform: rotate(90deg);*/
+    /*transform-origin: top left;*/
     padding: 2rem;
+    background: $color-white;
   }
 </style>

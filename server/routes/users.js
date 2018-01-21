@@ -1,10 +1,13 @@
-var express = require('express')
-var router = express.Router()
+const express = require('express')
+// const assert = require('assert')
+const router = express.Router()
+// const MongoClient = require('mongodb').MongoClient
+const mongoose = require('mongoose')
+const keys = require('../keys')
 
-/* GET users listing. */
 router.get('/', function(req, res, next) {
   res.send({
-    message: 'response from /users'
+    message: 'response from users'
   })
 })
 
